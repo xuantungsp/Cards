@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8187.4" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondViewController">
+            <connections>
+                <outlet property="contentView" destination="rYe-yk-EqB" id="W8c-ZC-ZWw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYe-yk-EqB">
+                    <rect key="frame" x="0.0" y="105" width="320" height="463"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cIX-57-BU0">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="463"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93148311491935487" green="1" blue="0.89935105846774188" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="cIX-57-BU0" firstAttribute="top" secondItem="rYe-yk-EqB" secondAttribute="top" id="1B4-PU-hax"/>
+                        <constraint firstAttribute="bottom" secondItem="cIX-57-BU0" secondAttribute="bottom" id="bh8-yq-hgc"/>
+                        <constraint firstAttribute="trailing" secondItem="cIX-57-BU0" secondAttribute="trailing" id="fkW-8t-esx"/>
+                        <constraint firstItem="cIX-57-BU0" firstAttribute="leading" secondItem="rYe-yk-EqB" secondAttribute="leading" id="xzu-bF-jtH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rYe-yk-EqB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="105" id="cPk-ju-Lwe"/>
+                <constraint firstAttribute="bottom" secondItem="rYe-yk-EqB" secondAttribute="bottom" id="jBB-2d-FQt"/>
+                <constraint firstAttribute="trailing" secondItem="rYe-yk-EqB" secondAttribute="trailing" id="mcV-X4-Ak9"/>
+                <constraint firstItem="rYe-yk-EqB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xX4-Vy-w0f"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
